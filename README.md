@@ -9,7 +9,18 @@
 		</dependency>
 ```
 ###### 2.文件
-![e98728cffe3432bd070035965984dfdf.png](evernotecid://86FCFC13-5A95-4BF6-8902-FA132DA8DD7F/appyinxiangcom/18568258/ENResource/p1831)
+failure.json ：   {"foo" : 1234}
+
+Schema.json ：
+{
+  "type": "object",
+  "properties" : {
+    "foo" : {
+      "type" : "string"
+    }
+  }
+}
+--放在根目录下即可
 
 ###### 3.测试代码
 ```
